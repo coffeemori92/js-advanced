@@ -22,9 +22,9 @@ add.call(null, 3, 5);
 sayName();
 // this를 바꿔서 새로운 함수 생성
 sayName.bind({ name: 'coffeemori1' })();
-// this를 바꾸서 새로운 함수 생성 및 실행
+// this를 바꿔서 새로운 함수 생성 및 실행
 sayName.apply({ name: 'coffeemori2' });
-// this를 바꾸서 새로운 함수 생성 및 실행
+// this를 바꿔서 새로운 함수 생성 및 실행
 sayName.call({ name: 'coffeemori3' });
 
 const obj = {
